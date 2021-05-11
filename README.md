@@ -56,3 +56,5 @@ Dessa forma o sistema centralizados de versão são caracterizados Utilizado qua
 
 Dessa forma o sistema distribuído de controle de versão são caracterizados porduplicar o diretório do arquivo em servidores 
 direfentes dessa forma mesmo se um desses passe por algum problema é possivel recuperar o diretório completo sem percas.
+
+Guilherme Rigueti-00205056 e Matheus Lacerra-00204190
