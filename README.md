@@ -1,6 +1,13 @@
 # TrabalhoTopicosEspeciais
 
-.1. O que é o Git?
+1. O que é o Git?
+
+A plataforma de hospedagem de código fonte e arquivos que disponibiliza um controle de versão, permite tambem o 
+compartilhamento de codigos, muito usado quando é necessario o desenvolvimento em equipe. As características 
+brutas de desempenho do Git são muito fortes quando comparadas a muitas alternativas. Fazer o commit de novas 
+alterações, branches, mesclagem e comparação de versões anteriores – tudo é otimizado para desempenho entre tanto
+ diferente de alguns softwares de controle de versão, o Git não se deixa enganar pelos nomes dos arquivos ao determinar
+ qual deve ser o armazenamento e o histórico de versões da árvore de arquivos.
 
 •2. O que é versionamento de software?
 
