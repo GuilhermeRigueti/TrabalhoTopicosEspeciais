@@ -9,7 +9,14 @@ alterações, branches, mesclagem e comparação de versões anteriores – tudo
  diferente de alguns softwares de controle de versão, o Git não se deixa enganar pelos nomes dos arquivos ao determinar
  qual deve ser o armazenamento e o histórico de versões da árvore de arquivos.
 
-•2. O que é versionamento de software?
+2. O que é versionamento de software?
+
+É o processo de atribuir um nome ou numeração a fim de organizar a sequencia de atualizações  ou alterações do codigo,
+ de forma que normalmente o maior numero é o recente alterado seja para atualização ou correção. As versões de um 
+software pode ser definida como sendo o intuito de controlar e acompanhar o histórico de alterações em um software.
+ Esse sistema permite distinguir as mudanças realizadas, facilitando a identificação de cada uma delas, nesse sentido
+ a implementação constante de upgrades, durante ou após o processo de desenvolvimento, demanda um monitoramento constante, 
+pois todas essas atualizações afetam a performance do programa.
 
 •3. Por que utilizar o Git como controle de versionamento?
 
