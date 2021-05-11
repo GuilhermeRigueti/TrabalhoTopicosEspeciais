@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Versionamento</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a> </li>
+                    <li><a href="sem-flow.html">Comandos sem Flow</a> </li>
+                    <li><a href="com-flow.html">Comandos com Flow</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3>Para que serve o commit e qual a melhor forma de utilizá-lo?</h3>
+                <p><span></span>O Commit é utilizado para adicionar as alterações ao histórico do repositório atribuindo um nome ao commit. Ele pode ser usado de várias formas para comitar alterações ao repositório mas todo commit precisa de uma mensagem para logar que serve para sua identificação, usando o comando git commit -m "mensagem" (mensagem = qualquer String válida). Outras forma de executar o commit é com o parâmetro "-a" que dirá ao Git para pegar a última versão do working tree e realizar um commit ao repositório. Arquivos novos que ainda não foram versionados não são adicionados, apenas os que já foram versionados.</p>
+            </section>
+            
+            <section>
+                <h3>Qual a diferença entre commit e push?</h3>
+                <p><span></span>O comando git Push é usado para fazer o envio do conteúdo que está presente no repositório local para um repositório remoto, “Push” é como os commits do repositório local são enviados a um repositório remoto. Já o git Commit, difere-se por fazer o registro das mudanças que são realizadas na máquina local porém, ele não marcará as mudanças no repositório remoto. Dessa forma, a diferença que se pode encontrar entre git Commit e git Push é que enquanto o commit tem como função a realização do registro das alterações no repositório o push atualiza as referências remotas junto com os objetos associados.</p>
+            </section>
+    
+            <section>
+                <h3>O que é tag?</h3>
+                <p><span></span>A tag é como um branch, ela tem a função de fazer a  identificação de um commit específico com um rótulo descritivo. As . O git trabalha com dois tipos de tags, o tipo annotated e o tipo non-annotated, ambas as tags dão permissão para que se possa fazer referência a um commit específico que está presente em um repositório porém, o que as difere é que uma annotated tag cria um objeto tag adicional no repositório do Git permitindo o armazenamento de informações associadas com a tag. Tags anotadas são um armazenamento completo de objetos dentro do banco de dados do Git .</p>
+            </section>
+    
+            <section>
+                <h3>O que é branch?</h3>
+                <p><span></span>O Branch nada mais é do que uma ramificação que no git se refere a um ponteiro para as alterações que são realizadas nos arquivos do projeto. Ele é útil em situações que se deseja fazer a adição de um novo recurso ou até mesmo em casos de correção de algum tipo de erro, gerando assim, uma nova ramificação para que se possa garantir que o código instável não seja mesclado junto com os arquivos do projeto principal. Após realizar a atualização dos códigos pertencentes à ramificação, é possível fazer a mesclagem da ramificação com a principal, geralmente é chamada de master.</p>
+            </section>
+    
+            <section>
+                <h3>Como resolver possíveis conflitos no Git?</h3>
+                <p><span></span>Conflitos no git pode ocorrer quando dois desenvolvedores fazem alteração no mesmo trecho do código, quando se mesclam branch ou mescla-se commits dentro da mesma branch. Assim, para que seja possível fazer a resolução de conflitos no git, é realizado uma intervenção de forma manual onde, se altera o código em questão e submete um novo commit. Portando, primeiramente é necessário fazer a localização de todos os arquivos onde estão sendo apresentados os conflitos e dessa forma, realizar a alteração do arquivo para que se possa conter uma única versão, deletando o código incorreto e removendo as marcações de conflito.</p>
+            </section>
+    
+            <section>
+                <h3>Em caso de incêndio, quais são os comandos git necessários antes de sair do prédio?</h3>
+                <p><span></span>Para casos envolvendo um incêndio em um ambiente de programação, seria possível fazer a realização dos seguintes comandos:
+                    O primeiro comando será o: git add -A (comando necessário para adicionar todos os arquivos modificados)
+                    O segundo comando será: git commit -m "Perigo, está havendo riscos de perca física por conta de um aviso de incêndio"
+                    O terceiro comando será: git push. O git push enviara tudo que ainda está pendente na máquina ou seja, tudo de divergente que estiver na máquina e não está na nuvem
+                    Para finalizar, realizaria o Git status que tem como objetivo o estado dos arquivos</p>
+            </section>
+            <section>
+                <h3>Guilherme Rigueti 00205056 e Matheus Lacerra 00204190</h3>
+            </section>
+    
+        </main>
+    </div>
+</body>
+</html>
