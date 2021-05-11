@@ -29,6 +29,14 @@ cenários do repositório de uma forma visual. Ele permite que você reverta par
 
 •4. Quais as vantagens do Git? 
 
+O git disponibiliza uma forma para que se realize um controle de versão, tambem conhecido como versionamento,
+ no qual é responsavel por salvar os codigos anteriores, codigos nos quais passaram por atualizações mas sua
+ versão atual será salva, dessa forma caso ocorra algum problema com a nova alteração, é possivel regredir para
+ a versão anterior. Uma das principais função do git é justamente facilitar esse controle de versão, seja para 
+quem trabalha sozinho ou para empresas onde existe um grande numero de desenvolvedores no mesmo projeto. Outro 
+grande vantagem é a possibilidade de participação em projetos de terceiro, onde é possivel deixar deu diretorio 
+“publico”, dessa forma outras pessoas podem colaborar com seu projeto.
+
 •5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
 
 •6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
