@@ -18,7 +18,7 @@ software pode ser definida como sendo o intuito de controlar e acompanhar o hist
  a implementação constante de upgrades, durante ou após o processo de desenvolvimento, demanda um monitoramento constante, 
 pois todas essas atualizações afetam a performance do programa.
 
-•3. Por que utilizar o Git como controle de versionamento?
+3. Por que utilizar o Git como controle de versionamento?
 
 O git, alem da disponibilização de versionamento tambem,  disponibiliza todo o historico de alteração e as versões 
  antigas do projeto. Dessa forma é possivel comparar as alterações e até recredir versão. Dessa forma, com o git 
@@ -27,7 +27,7 @@ cenários do repositório de uma forma visual. Ele permite que você reverta par
  ou um projeto inteiro, compare as mudanças ao longo do tempo, veja quem modificou pela última vez algo que pode
  estar causando um problema, quem introduziu um problema, quando, e muito mais.
 
-•4. Quais as vantagens do Git? 
+4. Quais as vantagens do Git? 
 
 O git disponibiliza uma forma para que se realize um controle de versão, tambem conhecido como versionamento,
  no qual é responsavel por salvar os codigos anteriores, codigos nos quais passaram por atualizações mas sua
@@ -37,6 +37,13 @@ quem trabalha sozinho ou para empresas onde existe um grande numero de desenvolv
 grande vantagem é a possibilidade de participação em projetos de terceiro, onde é possivel deixar deu diretorio 
 “publico”, dessa forma outras pessoas podem colaborar com seu projeto.
 
-•5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
+5. Qual a importância da utilização do controle de versionamento no desenvolvimento de um software?
+
+Devido as constante alterações no codigo fonte, é frequente os erros posteriores as atualizações, com o controle 
+de versão é possivel recredir o software até que o erro seja corrigido na  base teste ou podendo também realizar
+ uma comparação. Todos os projetos sofrem alterações ao passar do tempo, seja para atualizar e melhor ou para
+ corrigir um erro ou um bug. Depois de corrigido é gerado uma copia do projeto, onde uma copia é substituido para
+ main, e passa a ser a principal e a outra copia fica como versão para que assim possa realizar uma alteração ou 
+comparação caso for necessário.
 
 •6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
