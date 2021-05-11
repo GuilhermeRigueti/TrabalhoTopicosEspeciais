@@ -46,4 +46,13 @@ de versão é possivel recredir o software até que o erro seja corrigido na  ba
  main, e passa a ser a principal e a outra copia fica como versão para que assim possa realizar uma alteração ou 
 comparação caso for necessário.
 
-•6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
+6. Cite pelo menos três ferramentas de controle de versão e faça um breve detalhamento sobre cada uma delas.
+
+Sistemas locais de controle de versão são caracterizados por ter um banco de dados muitas das vezes desenvolvido pelo 
+próprio programador onde é colocado as versões antigas antigas.
+
+Dessa forma o sistema centralizados de versão são caracterizados Utilizado quando existe mais de um desenvolvedor, existe um 
+Único banco de dados com todas as versões e alterações, assim todos os usuários trabalham a partir do mesmo banco.
+
+Dessa forma o sistema distribuído de controle de versão são caracterizados porduplicar o diretório do arquivo em servidores 
+direfentes dessa forma mesmo se um desses passe por algum problema é possivel recuperar o diretório completo sem percas.
