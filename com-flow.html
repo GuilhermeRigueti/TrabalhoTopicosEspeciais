@@ -1,1 +1,53 @@
-<h1>Com Flow</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Comandos Flow</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./css/styles.css'>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a> </li>
+                    <li><a href="sem-flow.html">Comandos sem Flow</a> </li>
+                    <li><a href="#">Comandos com Flow</a> </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h3>Funcionalidades</h3>
+                <p><span></span>git flow feature start NOME: Comando para iniciar o desenvolvimento de uma nova funcionalidade</p>
+                <p><span></span>git flow feature finish NOME: Comando que mesca o NOME no develop, remove o branch da funcionalidade e volta para o branch develop</p>
+                <p><span></span>git flow feature publish NOME: comando para publicar a funcionalidade no servidor remoto</p>
+                <p><span></span>git flow feature pull NOME: Comando para obter uma funcionalidade publicada por outro usuário</p>
+            </section>
+            
+            <section>
+                <h3>Criar versão / Release</h3>
+                <p><span></span>git flow release start RELEASE [BASE]: Comando para começar uma nova versão, cria um branch da versão baseado no bransh develop</p>
+                <p><span></span>git flow release publish RELEASE: Comando para publicar o branch da versão após sua criação, permitindo os commits de outros desenvolvedores</p>
+                <p><span></span>git flow release track RELEASE: Comando para acompanhar versão remota</p>
+            </section>
+    
+            <section>
+                <h3>Finalizar Versão</h3>
+                <p><span></span>git flow release finish RELEASE: Comando que executa ações como mesclar o bransh da versão master, etiqueta a versão com seu nome, mescla o branch da versão de volta no develop, remove o branch da versão</p>
+            </section>
+    
+            <section>
+                <h3>Hotfix</h3>
+                <p><span></span>git flow hotfix start VERSION [BASENAME]: Comando para iniciar um hotfix</p>
+                <p><span></span>git flow hotfix finish VERSION: Comando para finalizar um hotfix</p>
+
+            </section>
+    
+    
+        </main>
+    </div>
+</body>
+</html>
